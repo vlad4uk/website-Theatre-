@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/plays.css">
+    <title>Спектакли</title>
+</head>
+<body>
+    <header>
+
+        <div class="Header">
+            <div>
+                <img class="rCol" src="img/lebedrev.jpg"/>
+            </div>
+
+            <div>
+                <p class="bigName"><a href="main.html">Гомельский драматический театр</a></p>
+            </div>
+
+            <div>
+                <img class="lCol" src="img/lebed.png"/>
+            </div>
+        </div>
+        
+    </header>
+
+    <h2 style="text-align: center;">Ближайшие спектакли</h2>
+        
+    <div class="main-content">
+        <div id="dateClick">
+
+            <input type="button"  class="date" value="11 мая" onmousedown="viewBlockFirst()" ondblclick="noneBlockFirst()">
+                
+                <div id="playsSelectFirst">
+
+                    <p class="holder"><a href="view.html#scene1">Свадьбы не будет! Но...</a></p>
+
+                    <p class="holder"><a href="view.html#scene2">Твори добро своди с ума</a></p>
+                
+                </div>
+        </div>
+
+        <div id="dateClick">
+
+            <input type="button"  class="date" value="12 мая" onmousedown="viewBlockSecond()" ondblclick="noneBlockSecond()">
+                
+                <div id="playsSelectSecond">
+
+                    <p class="holder">
+                        <a href="view.html#scene3">Обед для грешников</a>
+                    </p>
+                    
+                    <p class="holder">
+                        <a href="view.html#scene4">Цианистый калий. С молоком или без?</a>
+                    </p>
+                
+                </div>
+        </div>
+
+        
+
+        <div id="dateClick">
+            
+            <input type="button" class="date" value="13 мая" onmousedown="viewBlockThird()" ondblclick="noneBlockThird()">
+                
+                <div id="playsSelectThird">
+                    
+                    <p class="holder">
+                        <a href="view.html#scene5">Маленькие трагедии. Пушкин</a>
+                    </p>
+                    
+                    <p class="holder">
+                        <a href="view.html#scene6">Небесный тихоход</a>
+                    </p>
+
+                </div>
+
+            </div>
+
+    </div>
+
+    <p></p>
+
+    <p class="updateProgram">Скоро обновление каталога программы!</p>
+
+    <p class="basement-caption">Всю информацию о приобретении билетов можно найти на сайте <span style="font-size: 17px;"><a href="https://www.kvitki.by">Kvitki.by</a></span></p>
+     
+    <script src="js/main.js"></script>
+</body>
+</html>
