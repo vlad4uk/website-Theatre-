@@ -1,0 +1,209 @@
+a {
+  text-decoration: none;
+  color: goldenrod;
+}
+
+@media (max-width: 480px) {
+  #dateClick {
+    margin: 0 145px 0 145px;
+    width: 200px;
+    height: 200px;
+    display: block;
+  }
+  a {
+    text-decoration: none;
+    text-align: center;
+    color: goldenrod;
+    font-size: 22px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+  #playsSelectFirst, #playsSelectSecond, #playsSelectThird {
+    display: none;
+    width: 300px;
+    height: 100px;
+    margin-left: -95px;
+  }
+  .date {
+    font-size: 20px;
+    width: 100px;
+    background-color: bisque;
+    border-radius: 15px;
+  }
+  input {
+    border: none;
+  }
+  .holder {
+    margin: 25px;
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 25px;
+  }
+  .Header {
+    display: flex;
+    margin: 0 5% 0 5%;
+    width: 90%;
+  }
+  .rCol {
+    width: 100px;
+    height: 50px;
+  }
+  .bigName {
+    font-size: 15px;
+    color: goldenrod;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .lCol {
+    width: 100px;
+    height: 50px;
+  }
+  .main-content {
+    margin: 100px auto 20px;
+    display: block;
+  }
+  .basement-caption {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 100px;
+  }
+  .updateProgram {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+@media (min-width: 481px) and (max-width: 1000px) {
+  #dateClick {
+    margin: 0 45% 0 45%;
+    width: 10%;
+    height: 200px;
+    display: block;
+  }
+  a {
+    text-decoration: none;
+    text-align: center;
+    color: goldenrod;
+    font-size: 22px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+  #playsSelectFirst, #playsSelectSecond, #playsSelectThird {
+    display: none;
+    width: 300px;
+    height: 100px;
+    margin-left: -95px;
+  }
+  .date {
+    font-size: 20px;
+    width: 100px;
+    background-color: bisque;
+    border-radius: 15px;
+  }
+  input {
+    border: none;
+  }
+  .holder {
+    margin: 25px;
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 25px;
+  }
+  .Header {
+    display: flex;
+    margin: 0 13.5% 0 13.5%;
+    width: 73%;
+  }
+  .rCol {
+    width: 100px;
+    height: 60px;
+  }
+  .bigName {
+    font-size: 20px;
+    color: goldenrod;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .lCol {
+    width: 100px;
+    height: 60px;
+  }
+  .main-content {
+    margin: 100px auto 20px;
+    display: block;
+  }
+  .basement-caption {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 100px;
+  }
+  .updateProgram {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+@media (min-width: 1001px) {
+  #dateClick {
+    margin: 0 145px 0 145px;
+    width: 200px;
+    height: 200px;
+    display: block;
+  }
+  a {
+    text-decoration: none;
+    text-align: center;
+    color: goldenrod;
+    font-size: 22px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+  #playsSelectFirst, #playsSelectSecond, #playsSelectThird {
+    display: none;
+    width: 300px;
+    height: 100px;
+    margin-left: -25px;
+  }
+  .date {
+    font-size: 20px;
+    width: 100px;
+    background-color: bisque;
+    border-radius: 15px;
+  }
+  input {
+    border: none;
+  }
+  .holder {
+    margin: 25px;
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 25px;
+  }
+  .Header {
+    display: flex;
+    margin: 0 23.5% 0 23.5%;
+    width: 53%;
+  }
+  .rCol {
+    width: 150px;
+    height: 90px;
+  }
+  .bigName {
+    font-size: 27px;
+    color: goldenrod;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .lCol {
+    width: 150px;
+    height: 90px;
+  }
+  .main-content {
+    margin: 100px auto 20px;
+    display: inline-flex;
+  }
+  .basement-caption {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 100px;
+  }
+  .updateProgram {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+  }
+}
