@@ -1,0 +1,368 @@
+.namee{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+@media (max-width: 480px){
+body{
+    width: 900px;
+}
+
+#content-scene{
+    margin: 10px auto 20px;
+    width: 940px;
+    height: 6000px;
+    background-color: rgb(232, 232, 232);
+    display: grid;
+    grid-template-areas: 
+    "catalog caption";
+}
+
+#captionScene{
+    grid-area: "caption";
+    margin-top: 150px;
+    margin-left: 0px;
+}
+
+#Catalog{
+    grid-area: "catalog";
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.content-block2{
+    margin: 0 50px 260px 150px;
+}
+
+.content-block{
+    margin: 150px 50px 300px 150px;
+}
+
+p{
+    left: 100px;
+}
+
+h1{
+    margin-left: 8%;
+}
+
+.photoCard{
+    height: 350px;
+    width: 350px;
+    margin-bottom: 100px;
+}
+
+.dateCaption{
+    text-align: center;
+    font-size: 24px;
+    font-family: Cambria, Cochin;
+}
+
+.NewScene{
+text-align: center;
+width: 100px;
+height: 30px;
+border-radius: 15px;
+background-color: rgb(224, 70, 70);
+padding-top: 1px; 
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+}
+
+.author{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+}
+
+.nameScene{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+color: goldenrod;
+font-size: 28px;
+line-height: 29px;
+width: 350px;
+}
+
+.summary{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+}
+
+    
+a{
+    text-decoration: none;
+    color: black;
+}
+.Header{
+    display: flex;
+    margin: 0 21% 0 21%;
+    width: 58%;
+}
+
+.rCol{
+    width: 100px;
+    height: 50px;
+}
+
+.bigName{
+    font-size: 18px;
+    color: goldenrod;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.lCol{
+    width: 100px;
+    height: 50px;
+}    
+}
+
+@media (min-width: 481px) and (max-width: 1000px){
+    body{
+        width: 900px;
+    }
+    
+    #content-scene{
+        margin: 10px auto 20px;
+        width: 980px;
+        height: 5400px;
+        background-color: rgb(232, 232, 232);
+        display: grid;
+        grid-template-areas: 
+        "catalog caption";
+    }
+    
+    #captionScene{
+        grid-area: "caption";
+        margin-top: 150px;
+        margin-left: -150px;
+    }
+    
+    #Catalog{
+        grid-area: "catalog";
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    
+    .content-block2{
+        margin: 0 50px 220px 150px;
+    }
+    
+    .content-block{
+        margin: 150px 50px 260px 150px;
+    }
+    
+    p{
+        left: 50px;
+    }
+    
+    h1{
+        margin-left: 8%;
+    }
+    
+    .photoCard{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 100px;
+    }
+    
+    .dateCaption{
+        text-align: center;
+        font-size: 24px;
+        font-family: Cambria, Cochin;
+    }
+    
+    .NewScene{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(224, 70, 70);
+    padding-top: 1px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+    }
+    
+    .author{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    }
+    
+    .nameScene{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: goldenrod;
+    font-size: 24px;
+    line-height: 29px;
+    width: 350px;
+    }
+    
+    .summary{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    }
+    
+        
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .Header{
+        display: flex;
+        margin: 0 16% 0 16%;
+        width: 68%;
+    }
+    
+    .rCol{
+        width: 100px;
+        height: 60px;
+    }
+    
+    .bigName{
+        font-size: 22px;
+        color: goldenrod;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    
+    .lCol{
+        width: 100px;
+        height: 60px;
+    }       
+}
+
+@media (min-width: 1001px){
+    #content-scene{
+        margin: 10px auto 50px;
+        width: 1200px;
+        height: 6000px;
+        background-color: rgb(232, 232, 232);
+        display: grid;
+        grid-template-areas: 
+        "catalog caption";
+    }
+    
+    #captionScene{
+        grid-area: "caption";
+        margin-top: 150px;
+        margin-right: 100px;
+    }
+    
+    #Catalog{
+        grid-area: "catalog";
+        margin-top: 100px;
+        margin-left: 200px;
+    }
+    
+    .content-block2{
+        margin: 0 100px 260px 150px;
+    }
+    
+    .content-block{
+        margin: 130px 100px 300px 150px;
+    }
+    
+    p{
+        left: 100px;
+    }
+    
+    h1{
+        margin-left: 8%;
+    }
+    
+    .photoCard{
+        height: 350px;
+        width: 350px;
+        margin-bottom: 100px;
+    }
+    
+    .dateCaption{
+        text-align: center;
+        font-size: 24px;
+        font-family: Cambria, Cochin;
+    }
+    
+    .NewScene{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(224, 70, 70);
+    padding-top: 1px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    }
+    
+    .author{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    }
+    
+    .nameScene{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: goldenrod;
+    font-size: 28px;
+    line-height: 29px;
+    }
+    
+    .summary{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    }
+    
+        
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .Header{
+        display: flex;
+        margin: 0 23.5% 0 23.5%;
+        width: 53%;
+    }
+        
+    .rCol{
+        width: 150px;
+        height: 90px;
+    }
+        
+    .bigName{
+        font-size: 27px;
+        color: goldenrod;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+        
+    .lCol{
+        width: 150px;
+        height: 90px;
+    }
+}
